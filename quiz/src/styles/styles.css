@@ -1,0 +1,93 @@
+html{
+    background-color: #002444;
+}
+
+body{
+    background-color: rgb(8, 8, 8);
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1em;
+}
+/* texto do titulo no topo */
+h1{
+    color: rgb(0, 89, 92);
+}
+/* Textos das questões */
+h3.question{
+    color: rgb(91, 62, 163);
+    font-size: 2em;
+
+}
+
+.info{
+    font-size: 1.5em;
+}
+
+/* botão de resposta */
+.answer{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1.5em;
+    margin: 10px auto 0;
+}
+/* cor do botão quando o mouse passa sobre ele */
+.answer:hover{
+    background-color: cadetblue;
+}
+/* cor do botão quando selecionado */
+.answer.selected{
+    background-color: cadetblue;
+}
+/* botão do final 'enviar' */
+.button{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+}
+/* daqui até */
+.mini.button{
+    display:block;
+    width: 30%;
+}
+.next{
+    float: right;
+}
+.previous{
+    float: left;
+}
+/* aqui são botões que eu posso implementar no futuro */
+.button:hover{
+    background-color: blueviolet;
+}
+.button-holder{
+    width: 60%;
+    padding: .5em 0;
+    margin: .5em auto;
+}
+.clearfix::before
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+/* texto que aparece quando não se responde todas as questões */
+.response p{
+    margin: 50px auto;
+    font-size: 3em;
+}

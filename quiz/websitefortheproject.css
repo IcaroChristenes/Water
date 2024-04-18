@@ -1,0 +1,234 @@
+
+        body {
+            background-color: blueviolet;
+            width: 100%;
+            margin: 10px auto;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 100%;
+            background-color: whitesmoke;
+        }
+
+        header {
+            margin-top: 35px;
+            align-items: center;
+        }
+
+        .elementos  {
+            list-style: none;
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+            
+        }
+        .item1, .item2  {
+            margin-right: 40px;
+        }
+        
+    
+        .btn-round {
+            width: 90px;
+            height: 50px;
+            border-radius: 42%;
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10%;
+            margin-right: 10px;
+            
+        }
+        .login  {
+            margin-left: 64%;
+        }
+
+        .btn-round  {
+            margin-left: 25px;
+            
+        }
+
+        .login, .item1, .item2, .item3 {
+            color: #0d0c22;
+            font-weight: bold;
+            font-size: 13.4px;
+            
+            
+        }
+        
+        .login a, .btn-round a, .item1 a, .item2 a, .item3 a {
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.3s;
+        }
+
+        .login a:hover, .btn-round a:hover, .item1 a:hover, .item2 a:hover, .item3 a:hover {
+            opacity: 0.7;
+        }
+        .Signup a::before {
+            content: ""; /* Adicionar conteúdo vazio para o pseudo-elemento */
+            position: absolute; /* Definir a posição como absoluta */
+            width: 10px; /* Largura do círculo */
+            height: 10px; /* Altura do círculo */
+            background-color: blue; /* Cor do círculo */
+            border-radius: 50%; /* Forma do círculo */
+            top: 50%; /* Posição vertical do círculo */
+            left: -20px; /* Posição horizontal do círculo */
+            transform: translateY(-50%); /* Centralizar verticalmente */
+            display: block; /* Tornar o círculo um bloco */        
+        }
+    
+        .fotodaagua   {
+            box-sizing: inherit;
+            max-width: 100%;
+            height: auto;
+                
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.813rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif        }
+
+        .texto_sobre_imagem {
+            position: absolute; /* Definir o texto como absoluto */
+            top: 80%; /* Centralizar verticalmente */
+            right:  50%; /* Centralizar horizontalmente */
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 750;
+            font-size: 5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Adicionar sombra ao texto */
+            z-index: 4; /* Garantir que o texto esteja acima da imagem */
+            font-family: sans-serif;
+        }
+
+        .texto_sobre_imagem2    {
+            position: absolute; /* Definir o texto como absoluto */
+            color: white;
+            top: 120%;
+            right: 40%;
+            margin-left: 5.9%;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Adicionar sombra ao texto */
+            z-index: 3; /* Garantir que o texto esteja acima da imagem */
+            font-family: sans-serif;
+            box-sizing: inherit;
+            display: block;
+            font-size: 1.1rem;
+            line-height: 1.65em;
+                
+        }
+
+        
+        .texto_sobre_imagem, .texto_sobre_imagem2  {
+            margin-top: 42%;
+        }
+        
+        .btn-primeiro {
+            width: 250px;
+            height: 40px;
+            margin-top: 7%;
+            border-radius: 10%;    
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+            transform: translate(220%, -50%);
+            left: 50%;
+            
+}
+        h2  {
+            max-width: 870px;
+            font-size: 72px;
+            line-height: 76px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 0;
+            border: 0;
+            text-align: center;
+            margin-left: 18%;
+            margin-top: 1%;
+        }
+        p1  {
+            padding: 0;
+            border: 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin-left: 30%;
+            
+        }
+        .button2    {
+            width: 90px;
+            height: 50px;
+            border-radius: 42%;
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 46.7%;
+            margin-top: 2.8%;               
+        }
+.btn-primeiro:hover {
+    background-color: aquamarine;
+}
+
+p2  {
+    margin: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0d0c22;
+    font-size: 30px;
+    line-height: 8;
+    
+}
+
+p3 {
+    float: left; /* Faz com que o elemento p3 flutue à esquerda */
+    width: 30%; /* Define a largura do elemento p3 para ocupar metade da largura da página */
+    padding: 0 25px; /* Adiciona algum espaçamento interno */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p4  {
+    float: left;
+    width: 30%;
+    margin-right: 46%;
+    margin-top: 1%;
+    margin-left: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagem2 {
+    float: right; /* Faz com que a imagem2 flutue à direita */
+    width: 55%; /* Define a largura da imagem2 para ocupar metade da largura da página */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da página */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 0 30px; /* Adiciona algum espaçamento interno */
+    margin-top: -35%;
+}
+
+.butaodoquiz    {
+    margin-top: 12%;
+    margin-left: 450px;
+    height: auto;
+    width: 400px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+    
+    
+}
+
+.butaodoquiz:hover  {
+    background-color: aquamarine;
+}
+
+.Explicação {
+    background-color: yellow;
+}
