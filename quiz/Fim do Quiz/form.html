@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Messenger - Sua Denúncia foi enviada!</title>
+    <link rel="shortcut icon" type="imagex/png" href="/shortcutlogo.ico">
+    <style>
+        body    {
+            margin: 0;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%; 
+            height: 100vh;
+            overflow: hidden; 
+        }
+
+
+       video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+        font-size: 2rem; 
+        text-align: center; 
+    }
+
+
+    .text {
+        width: 100%;
+        max-width: 500px; /* 
+        height: 140px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical; */
+        vertical-align: top;
+}
+
+
+    button {
+        padding: 10px 20px; 
+        background-color: #f0f0f0; 
+        border: none; 
+        border-radius: 5px; 
+        color: #333;
+        font-size: 16px; 
+        font-weight: bold; 
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    button:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+    h1 {
+        margin-bottom: 0.2rem; 
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="video-container">
+
+        <video id="background-video" autoplay loop muted>
+            <source src="moving_water_animation.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay">
+            <a href="/unijorge_trabalho.html">
+                <button class="btn-inicio">Início</button>
+            </a>
+            <h1>Sua denúncia foi enviada!</h1>
+            <p>Quer deixar um comentário?</p>
+            <input type="text" class="text">
+            <br>
+            <a href="registro-formulario">
+                <button class="button1" type="submit">Enviar</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
