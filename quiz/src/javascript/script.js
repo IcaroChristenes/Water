@@ -59,7 +59,7 @@
             localStorage.setItem('avgValue', avg);
             localStorage.setItem('messageValue', message);
             
-                window.location.href = '/index.html'//no local de index.html deverá ser linkado a página de formulario.
+                window.location.href = '/quiz/websitefortheproject.html'//no local de index.html deverá ser linkado a página de formulario.
 
             }else{
                 var message = 'Você não respondeu todas as perguntas!';

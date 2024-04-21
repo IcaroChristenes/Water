@@ -28,8 +28,10 @@ header {
 
 
 header a img {
-    width: 80px;
-    border-radius: 50px;
+    width:  80px;
+    border-radius:50px;
+    border: 5px solid skyblue;
+   
     
 }
 
@@ -61,7 +63,7 @@ nav a:hover {
 
     width: 100vw;
     height: 100vh;
-    background: url(logo.png);
+    background: url(https://zunews.com/wp-content/uploads/2019/03/GettyImages-604576209-2880x1922.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0%;
@@ -87,17 +89,17 @@ nav a:hover {
 
 }
 
-.aaaa{
+.texto-da-imagem{
    
     height: 80%;
 }
 .inside-inicio h1{
-
+    
     font-size: 5vw;
     
 }
 
-p .aaaa{
+p .texto-da-imagem{
     font-size: 30px;
 
 }
@@ -107,17 +109,21 @@ p .aaaa{
 .inside-inicio a{
 
 
-    background-color: skyblue;
-    width: 8vw;
-    text-align: center;
-    padding: 2%;
-    border-radius: 8px;
-
+   
+        background-color: skyblue;
+        width: 8vw;
+        text-align: center;
+        padding: 2%;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-top: 20px; 
+        align-self: flex-start; 
+    
 
 }
 .inside-inicio a:hover{
     opacity: 0.8;
-    
+   
 }
 
 .feature-news{
@@ -140,6 +146,7 @@ p .aaaa{
     text-align: center;
     font-size: 30px;
     margin-top: 70px;
+    color:black;
     
 }
 
@@ -147,7 +154,7 @@ p .aaaa{
     overflow-x: auto;
     display: flex;
     justify-content: space-between;
-    margin-left: -20px;
+    margin-left: -25px;
 }
 
 .news-item1,
@@ -172,22 +179,50 @@ p .aaaa{
 .news-item3 :hover,
 .news-item4 :hover{
 
-
+    
     background-color: #555;
 }
 
-.news-item1 img,
+.news-item1 img ,
 .news-item2 img,
 .news-item3 img,
 .news-item4 img{
 
-
+    
     width: 100%;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+.news-item1 img,
+.news-item4 img{
+
+    width: 1000;
+    height: 55%;
+}
+
+.news-item1 P ,
+.news-item2 P,
+.news-item3 P,
+.news-item4 P{
+color: white;
+text-align: center;
+text-decoration: none;
 }
 
 
 
 
-    
+.rodapé{
+
+    background-color:black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 40px;
+    unicode-bidi: isolate;
+}
+
+
+
